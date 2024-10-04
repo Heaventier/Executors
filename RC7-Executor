@@ -62,7 +62,7 @@ submit.BorderSizePixel = 0
 submit.Position = UDim2.new(0.343839556, 0, 0.561983466, 0)
 submit.Size = UDim2.new(0, 101, 0, 20)
 submit.Font = Enum.Font.SourceSans
-submit.Text = "12345"
+submit.Text = ""
 submit.TextColor3 = Color3.fromRGB(0, 0, 0)
 submit.TextSize = 14.000
 submit.MouseButton1Down:connect(function()
@@ -100,7 +100,7 @@ pass.BorderSizePixel = 0
 pass.Position = UDim2.new(0.261000007, 0, 0.479999989, 0)
 pass.Size = UDim2.new(0, 160, 0, 21)
 pass.Font = Enum.Font.ArimoBold
-pass.Text = ""
+pass.Text = "12345"
 pass.PlaceholderText = "Password"
 pass.TextColor3 = Color3.fromRGB(31, 108, 146)
 pass.TextSize = 14.000
