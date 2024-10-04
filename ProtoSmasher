@@ -1,0 +1,394 @@
+local Protosmasher = Instance.new("ScreenGui")
+local protoTitle = Instance.new("TextLabel")
+local protoFrame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local proto = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+local clear = Instance.new("TextButton")
+local execute = Instance.new("TextButton")
+local inject = Instance.new("TextButton")
+local scrh = Instance.new("TextButton")
+local scr = Instance.new("Frame")
+local gcg = Instance.new("TextButton")
+local ggun = Instance.new("TextButton")
+local iy = Instance.new("TextButton")
+local cmess = Instance.new("TextButton")
+local oneg = Instance.new("TextButton")
+local Exit = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local fr6 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+Protosmasher.Name = "Protosmasher"
+Protosmasher.Parent = game.CoreGui
+
+protoTitle.Name = "protoTitle"
+protoTitle.Parent = Protosmasher
+protoTitle.Active = true
+protoTitle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+protoTitle.BorderColor3 = Color3.fromRGB(255, 0, 0)
+protoTitle.BorderSizePixel = 2
+protoTitle.Draggable = true
+protoTitle.Position = UDim2.new(0.585206687, -1, 0.063016057, 59)
+protoTitle.Size = UDim2.new(0, 410, 0, 25)
+protoTitle.Font = Enum.Font.SourceSans
+protoTitle.Text = "             ProtoSmasher"
+protoTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+protoTitle.TextSize = 14.000
+protoTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+protoFrame.Name = "protoFrame"
+protoFrame.Parent = protoTitle
+protoFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+protoFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+protoFrame.BorderSizePixel = 2
+protoFrame.Position = UDim2.new(0, 0, 1, 0)
+protoFrame.Size = UDim2.new(0, 410, 0, 431)
+
+ImageLabel.Parent = protoTitle
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0146341464, 0, 0.159999996, 0)
+ImageLabel.Size = UDim2.new(0, 17, 0, 17)
+ImageLabel.Image = "rbxassetid://2172234569"
+
+proto.Name = "proto"
+proto.Parent = protoTitle
+proto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+proto.BackgroundTransparency = 1.000
+proto.Position = UDim2.new(0, 0, 1, 0)
+proto.Size = UDim2.new(0, 410, 0, 431)
+proto.Image = "rbxassetid://2172241733"
+
+TextBox.Parent = proto
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.ClipsDescendants = true
+TextBox.Position = UDim2.new(0.109756097, 0, 0.0765661225, 0)
+TextBox.Size = UDim2.new(0, 349, 0, 204)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.Text = "-- print('Hello World!');"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+clear.Name = "clear"
+clear.Parent = protoTitle
+clear.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+clear.BackgroundTransparency = 1.000
+clear.Position = UDim2.new(0.517073154, 0, 11.0799999, 0)
+clear.Size = UDim2.new(0, 89, 0, 32)
+clear.Font = Enum.Font.SourceSans
+clear.Text = ""
+clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+clear.TextSize = 14.000
+
+execute.Name = "execute"
+execute.Parent = protoTitle
+execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute.BackgroundTransparency = 1.000
+execute.Position = UDim2.new(0.0292682927, 0, 11.0799999, 0)
+execute.Size = UDim2.new(0, 89, 0, 32)
+execute.Font = Enum.Font.SourceSans
+execute.Text = ""
+execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+execute.TextSize = 14.000
+
+inject.Name = "inject"
+inject.Parent = protoTitle
+inject.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+inject.BackgroundTransparency = 1.000
+inject.BorderColor3 = Color3.fromRGB(27, 42, 53)
+inject.Position = UDim2.new(0.758536577, 0, 11.1599998, 0)
+inject.Size = UDim2.new(0, 89, 0, 32)
+inject.Font = Enum.Font.SourceSans
+inject.Text = ""
+inject.TextColor3 = Color3.fromRGB(0, 0, 0)
+inject.TextSize = 14.000
+
+scrh.Name = "scrh"
+scrh.Parent = protoTitle
+scrh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scrh.BackgroundTransparency = 1.000
+scrh.BorderColor3 = Color3.fromRGB(27, 42, 53)
+scrh.Position = UDim2.new(0.0146341464, 0, 17.3600006, 0)
+scrh.Size = UDim2.new(0, 75, 0, 22)
+scrh.Font = Enum.Font.SourceSans
+scrh.Text = ""
+scrh.TextColor3 = Color3.fromRGB(0, 0, 0)
+scrh.TextSize = 14.000
+
+scr.Name = "scr"
+scr.Parent = protoTitle
+scr.Active = true
+scr.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+scr.Position = UDim2.new(-0.000221729279, 0, 18.2386951, 0)
+scr.Size = UDim2.new(0, 89, 0, 100)
+scr.Visible = false
+
+gcg.Name = "gcg"
+gcg.Parent = scr
+gcg.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+gcg.BorderSizePixel = 0
+gcg.Position = UDim2.new(0.0449438207, 0, -0.00999999978, 0)
+gcg.Size = UDim2.new(0, 85, 0, 16)
+gcg.Font = Enum.Font.SourceSans
+gcg.Text = "Game curser gui"
+gcg.TextColor3 = Color3.fromRGB(255, 255, 255)
+gcg.TextSize = 14.000
+gcg.TextWrapped = true
+
+ggun.Name = "ggun"
+ggun.Parent = scr
+ggun.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ggun.BorderSizePixel = 0
+ggun.Position = UDim2.new(0, 0, 0, 32)
+ggun.Size = UDim2.new(0, 89, 0, 19)
+ggun.Font = Enum.Font.SourceSans
+ggun.Text = "Give guns"
+ggun.TextColor3 = Color3.fromRGB(255, 255, 255)
+ggun.TextSize = 14.000
+ggun.TextWrapped = true
+
+iy.Name = "iy"
+iy.Parent = scr
+iy.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+iy.BorderSizePixel = 0
+iy.Position = UDim2.new(0, 3, 0, 16)
+iy.Size = UDim2.new(0, 82, 0, 16)
+iy.Font = Enum.Font.SourceSans
+iy.Text = "Infinite Yield"
+iy.TextColor3 = Color3.fromRGB(255, 255, 255)
+iy.TextSize = 14.000
+iy.TextWrapped = true
+
+cmess.Name = "cmess"
+cmess.Parent = scr
+cmess.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+cmess.BorderSizePixel = 0
+cmess.Position = UDim2.new(0, 0, 0.720253885, 0)
+cmess.Size = UDim2.new(0, 89, 0, 23)
+cmess.Font = Enum.Font.SourceSans
+cmess.Text = "c00l message"
+cmess.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmess.TextSize = 14.000
+
+oneg.Name = "oneg"
+oneg.Parent = scr
+oneg.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+oneg.BorderSizePixel = 0
+oneg.Position = UDim2.new(0, 0, 0.500070214, 0)
+oneg.Size = UDim2.new(0, 89, 0, 23)
+oneg.Font = Enum.Font.SourceSans
+oneg.Text = "1x1x1x1 gui"
+oneg.TextColor3 = Color3.fromRGB(255, 255, 255)
+oneg.TextSize = 14.000
+
+Exit.Name = "Exit"
+Exit.Parent = protoTitle
+Exit.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.Position = UDim2.new(0, 385, 0, 0)
+Exit.Size = UDim2.new(0, 25, 0, 24)
+Exit.Font = Enum.Font.Highway
+Exit.Text = "x"
+Exit.TextSize = 14.000
+
+ImageLabel_2.Parent = Protosmasher
+ImageLabel_2.Active = true
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(-0.127000004, 0, 0.407999992, 0)
+ImageLabel_2.Size = UDim2.new(0, 90, 0, 90)
+ImageLabel_2.Image = "rbxassetid://0"
+
+fr6.Name = "fr6"
+fr6.Parent = ImageLabel_2
+fr6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fr6.BackgroundTransparency = 1.000
+fr6.Position = UDim2.new(0, 0, -0.633333325, 0)
+fr6.Size = UDim2.new(0, 0, 0, 0)
+fr6.Font = Enum.Font.SourceSansBold
+fr6.Text = ""
+fr6.TextColor3 = Color3.fromRGB(0, 0, 0)
+fr6.TextScaled = true
+fr6.TextSize = 18.000
+fr6.TextTransparency = 1.000
+fr6.TextWrapped = true
+
+TextLabel.Parent = ImageLabel_2
+TextLabel.Active = false
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.99999994, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 0, 0, 0)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.LineHeight = 1.100
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 15.000
+TextLabel.TextTransparency = 1.000
+TextLabel.TextWrapped = true
+
+-- Scripts:
+
+local function XBHB_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	script.Parent.Text = "-- print('Hello World!');"
+end
+coroutine.wrap(XBHB_fake_script)()
+local function OBAUBWT_fake_script() -- clear.LocalScript 
+	local script = Instance.new('LocalScript', clear)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.proto.TextBox.Text = ""
+	end)
+	
+end
+coroutine.wrap(OBAUBWT_fake_script)()
+local function MLSI_fake_script() -- execute.execrip 
+	local script = Instance.new('Script', execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in ipairs(game:GetService("JointsService"):GetDescendants()) do
+			if v.Name:match("%^\\") then
+				v:FireServer(script.Parent.Parent.proto.TextBox.Text)
+			end
+		end
+	end)
+end
+coroutine.wrap(MLSI_fake_script)()
+local function BSKKREI_fake_script() -- inject.IntroTween 
+	local script = Instance.new('LocalScript', inject)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local img = script.Parent.Parent.Parent.ImageLabel
+	local TweenService = game:GetService("TweenService")
+	local txt = img.TextLabel
+	local btn = img.fr6
+	wait(1)
+	img:TweenPosition(UDim2.new(0.458, 0, 0.408, 0), "Out", "Linear", 0.4, false)
+	wait(3)
+	img:TweenPosition(UDim2.new(0.01, 0, 0.813, 0), "Out", "Sine", 0.7, false)
+	wait(1)
+	TweenService:Create(txt, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {["BackgroundTransparency"] = 0}):Play()
+	TweenService:Create(txt, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {["TextTransparency"] = 0}):Play()
+	
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then -- R6 detection
+			btn.BackgroundTransparency = 1
+			btn.TextTransparency = 1
+		elseif v.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then -- R15 detection
+			TweenService:Create(btn, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {["BackgroundTransparency"] = 0}):Play()
+			TweenService:Create(btn, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {["TextTransparency"] = 0}):Play()
+		end
+	end
+	wait(2)
+	while wait() do
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
+	btn.Transparency = 1
+	elseif v.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+	btn.Transparency = 0
+	end
+	end
+	end
+	end)
+end
+coroutine.wrap(BSKKREI_fake_script)()
+local function GGYD_fake_script() -- scrh.scrh 
+	local script = Instance.new('LocalScript', scrh)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.scr.Visible == false then
+			script.Parent.Parent.scr.Visible = true
+		else script.Parent.Parent.scr.Visible = false
+		end
+	end)
+end
+coroutine.wrap(GGYD_fake_script)()
+local function AYCJ_fake_script() -- gcg.gcgs 
+	local script = Instance.new('LocalScript', gcg)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in ipairs(game:GetService("JointsService"):GetDescendants()) do
+			if v.Name:match("%^\\") then
+				v:FireServer([[require(8226150094).load("]]..game:GetService('Players').LocalPlayer.Name..[[")]])
+			end
+		end
+	end)
+end
+coroutine.wrap(AYCJ_fake_script)()
+local function GUJIY_fake_script() -- ggun.gguns 
+	local script = Instance.new('LocalScript', ggun)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in ipairs(game:GetService("JointsService"):GetDescendants()) do
+			if v.Name:match("%^\\") then
+				v:FireServer([[require(4207271766).load("]]..game:GetService('Players').LocalPlayer.Name..[[")]])
+			end
+		end
+	end)
+end
+coroutine.wrap(GUJIY_fake_script)()
+local function XEFGFCS_fake_script() -- iy.iys 
+	local script = Instance.new('LocalScript', iy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in ipairs(game:GetService("JointsService"):GetDescendants()) do
+			if v.Name:match("%^\\") then
+				v:FireServer([[require(4848156552)("]]..game:GetService('Players').LocalPlayer.Name..[[")]])
+			end
+		end
+	end)
+end
+coroutine.wrap(XEFGFCS_fake_script)()
+local function VUYVTBO_fake_script() -- cmess.cmessS 
+	local script = Instance.new('LocalScript', cmess)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in ipairs(game:GetService("JointsService"):GetDescendants()) do
+			if v.Name:match("%^\\") then
+				v:FireServer([[local m = Instance.new("Hint", game.Workspace) m.Text = "team c00lkidd, join today! https://discord.gg/7A5DRmUCnj"]])
+			end
+		end
+	end)
+end
+coroutine.wrap(VUYVTBO_fake_script)()
+local function WPUP_fake_script() -- oneg.onegs 
+	local script = Instance.new('LocalScript', oneg)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in ipairs(game:GetService("JointsService"):GetDescendants()) do
+			if v.Name:match("%^\\") then
+				v:FireServer([[require(8515473220).load("]]..game:GetService('Players').LocalPlayer.Name..[[")]])
+			end
+		end
+	end)
+end
+coroutine.wrap(WPUP_fake_script)()
+local function OXSX_fake_script() -- Exit.excrip 
+	local script = Instance.new('Script', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(OXSX_fake_script)()
+local function BJJQ_fake_script() -- fr6.1526 
+	local script = Instance.new('LocalScript', fr6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in ipairs(game:GetService("JointsService"):GetDescendants()) do
+			if v.Name:match("%^\\") then
+				v:FireServer([[require(3041175937):r6("]]..game:GetService('Players').LocalPlayer.Name..[[")]])
+			end
+		end
+	end)
+end
+coroutine.wrap(BJJQ_fake_script)()
